@@ -1,0 +1,46 @@
+
+<!DOCTYPE html> 
+<html> 
+  
+<head> 
+    <title>HTML colspan Attribute</title> 
+    <style> 
+      
+        table, th, td { 
+            border: 1px solid black; 
+            border-collapse: collapse; 
+            padding: 6px; 
+            text-align:center; 
+        } 
+  
+    </style> 
+</head> 
+  
+<body> 
+    <center> 
+        <h1 style="color: green;">HTML col span attributes</h1> 
+        <table> 
+            <tr> 
+                <th>Name</th> 
+                <th>Expense</th> 
+            </tr> 
+            <tr> 
+                <td>Arun</td> 
+                <td>$10</td> 
+            </tr> 
+            <tr> 
+                <td>Priya</td> 
+                <td>$8</td> 
+            </tr> 
+  
+            <!-- The last row -->
+            <tr> 
+                <!-- This td will span two columns, that is a  
+                single column will take up the space of 2 -->
+                <td colspan="2">Sum: $18</td> 
+            </tr> 
+        </table> 
+    </center> 
+</body> 
+  
+</html>  
